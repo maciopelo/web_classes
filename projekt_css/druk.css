@@ -1,0 +1,59 @@
+body{
+	font-size: 14px;
+	font-family: "Times New Roman", Times, serif;
+	background-color: white;
+}
+
+#tytul{
+	color: black;
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+
+
+a{
+	text-decoration:none;
+}
+
+a:hover
+{
+	cursor:default;
+}
+
+p{
+	text-indent: 50px;
+	text-align:justify;
+}
+
+#obrazek1{
+	height:219px;
+	width:300px;
+	float:left;
+}
+
+#obrazek2{
+	height:219px;
+	width:300px;
+	float:left;
+}
+
+#paragraf{
+	clear:both;
+}
+
+#tresc{
+	width:960px;
+	color:black;
+}
+
+
+@media print{
+	
+	#menu{
+		display:none;
+	}
+	
+	#walidators{
+	display:none;
+	}
+}

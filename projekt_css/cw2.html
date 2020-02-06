@@ -1,0 +1,146 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>Ćw. 2 - tytuł w języku polskim</title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+	<link rel="stylesheet" media="screen" href="style2.css" type="text/css" title="Main"/>
+	<link rel="alternate stylesheet" media="screen" href="alternatywny.css" type="text/css"  title="Alternative"/>
+	<link rel="alternate stylesheet" media="screen" href="druk.css" type="text/css"  title="Print"/>
+	<script type="text/javascript" src="skrypt.js"> </script>
+
+
+</head>
+
+<body onload="onload();">
+
+<div id="tytul"> Ćwiczenie 2. </div>
+<p><br/></p>
+
+
+<div id="container">
+
+<div id="menu">
+<b>Menu</b>
+		<ol>
+		
+			<li><a href="#">Lista ćwiczeń:</a>
+				
+				<ul id="lista">
+					<li><a href="cw1.html"> Ćwiczenie 1 </a></li>
+					<li><a href="cw2.html"> Ćwiczenie 2 </a></li>
+					<li><a href="cw3.html"> Ćwiczenie 3 </a></li>
+					<li><a href="cw4.html"> Ćwiczenie 4 </a></li>
+				</ul>
+				
+			</li>
+		
+		
+
+			<li><a href="#">Spis treści:</a>
+				<ul>
+					<li><a href="#naglowek1">Nagłówek 1</a></li>
+					<li><a href="#naglowek2">Nagłówek 2</a></li>
+					<li><a href="#pytania">Pytania</a></li>
+					
+				</ul>
+			</li>
+
+			<li><a href="#">Wybór stylów:</a>
+				<ul id="punkty">
+					
+				</ul>
+			</li>
+	
+		</ol>
+
+</div>
+
+
+<div id="tresc">
+
+<h1 id="naglowek1"> Nagłówek 1</h1>
+<p>W&nbsp; akapicie  znajduje się tekst pisany kursywą na dwa sposoby:
+<i> Pierwszy </i> oraz  <em> Drugi </em>  </p>
+
+<p>Również tekst pogrubiony dwiema metodami:
+<b> Pierwsza </b> oraz  <strong> Druga </strong>  </p>
+
+<p>Pokazano także fragmenty kodu:
+<code> int first; </code> oraz  <samp> double second;</samp> </p>
+
+<p>Jeśli x<sub>1</sub> &gt; x<sub>2</sub> oraz x<sub>1</sub> + 2x<sub>2</sub> &lt; 0 to x<sub>1</sub>(x<sub>1</sub>+x<sub>2</sub>)&lt;2x<sup>2</sup>
+</p>
+<p> W&nbsp; wybranym miejscu, <br/> złamana linijka</p>
+
+<p> Przy pomocy odpowiednich encji spraw, aby w&nbsp; tekście nie występowały tzw. „sieroty”. </p>
+
+
+
+<h1 id="naglowek2"> Kod źródłowy</h1>
+<pre>
+<code>
+package hello;
+
+public class HelloWorld{  
+	public static void main(String args[]){ 
+	
+			System.out.println("Hello Java");  
+			
+		}  
+		
+} 
+</code>
+</pre>
+
+<p><br/></p>
+
+<h1 id="pytania">Pytania : </h1>
+
+<h3>1. Jaka jest różnica między znacznikami <code>i</code> oraz <code>em</code>? Czy zawsze dają identyczne wyniki?</h3>
+<p>Znaczniki <code>i</code>oraz <code>em</code> powodują pochylenie tekstu (kursywę), przy czym <code>i</code> powoduje jedynie fizyczną zmianę, a&nbsp; <code>em</code> służy dodatkowo do uwypuklania danej informacji (ang. <i>emphasize</i>) oraz może dawać inny wynik w&nbsp; zależności od stylu.</p>
+
+<h3>2. Jaka jest różnica między znacznikami <code>b</code> oraz <code>strong</code>? Czy zawsze dają identyczne wyniki?</h3>
+<p> Znacznika <code>b</code> używamy, gdy zależy nam jedynie na efekcie wizualnym danego słowa, czy zdania, a&nbsp; nie na jego punkcie merytorycznym, dlatego stosujemy go do pogrubienia np. jakichś słów kluczowych, nazw produktów. Znacznika <code>strong </code> używamy z&nbsp; kolei nie tylko jeśli chodzi nam o&nbsp; samo pogrubienie, ale także o&nbsp; podkreślenie wagi i&nbsp; merytoryki danego słowa. Wyniki obu znaczników mogą się różnić w&nbsp; zależnosci od stylów. </p>
+		
+<h3>3. Jaka jest różnica między znacznikami <code>code</code> oraz <code>samp</code>? Czy zawsze dają identyczne wyniki?</h3>
+<p>Znacznik <code>code</code> stosujemy przedstawiania samego kodu źródłowego, a&nbsp;  <code>samp</code> używamy do pokazania wyników, outputu danego programu. Wygląd tych znaczników może się różnić w&nbsp; zależnosci od stylów.</p>
+		
+<h3>4. Jaka jest różnica pomiędzy fragmentem strony sformatowanej tak: <code>&lt;p&gt;&hellip;&lt;/p&gt;&lt;p&gt;&hellip;&lt;/p&gt;</code>
+oraz fragmentem o&nbsp; następującej postaci: <code>&lt;p&gt;&hellip;&lt;br/&gt;&lt;br/&gt;&hellip;&lt;/p&gt;</code>?</h3>
+<p>Pierwszy fragment strony składa się z&nbsp; dwóch osobnych paragrafów, natomiast drugi to jeden paragraf, w&nbsp; którym złamano recznie linię. W&nbsp; wyglądzie strony jeśliby umieścić odpowiednio tekst to bez zaglądania w&nbsp; kod źródłowy strony byłyby identyczne.</p>
+
+</div>
+</div>
+
+<div id="walidators">
+<p><br/></p>
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</p>
+
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Poprawny CSS!" />
+    </a>
+</p>
+
+
+<p>
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Poprawny CSS!" />
+    </a>
+</p>
+</div>
+
+
+</body>
+</html>
