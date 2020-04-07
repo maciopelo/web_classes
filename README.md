@@ -1,1 +1,1 @@
-mini-projekty z zajęć webowych AGH 3 semestr
+### Simple web apps made during web classes at the AGH uni
